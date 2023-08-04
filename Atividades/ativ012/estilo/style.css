@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh; /*Tamanho minimo da view height*/
+    background-color: darkgray;
+
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps; /*Deixa tudo maiúsculo e a primeira letra da palavra em destaque*/
+
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+a{
+    color:white;
+    text-decoration: none; /*tirar o negrito do link*/
+    font-weight: bolder;
+}
+
+a /*configurando todos os links*/{
+    color:white;
+    text-decoration: none; /* tirando o sublinhado*/
+    font-weight: bolder; /*Deixando em negrito para caracterizar o link*/
+    
+}
+
+a:hover /*Para sublinhar quando passar o mouse por cima*/ {
+    text-decoration: underline;
+}
+
+section /* Configura as section como um todo*/ {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em; /*Gera espaçamento entre as linhas das frases*/
+    padding-left: 30px;
+
+
+
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(51, 50, 50);
+    color: white;
+}
+
+section.imagem > p {
+    width: 400px;
+    background-color: rgb(22, 20, 20);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
